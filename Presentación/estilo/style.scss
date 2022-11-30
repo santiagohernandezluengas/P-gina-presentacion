@@ -1,0 +1,15 @@
+@import './header';
+@import './main';
+@import './footer';
+
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    //width: 100%;
+    font-family: arial;
+    scroll-behavior: auto;
+}

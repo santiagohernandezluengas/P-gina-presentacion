@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.O.E</title>
+    <link rel="icon" href="img/letra-i.png">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script type="text/javascript" src="js/code.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#leng">Lenguajes</a></li>
+                    <li><a href="#ejem">Ejemplo</a></li>
+                    <li><a href="#integrantes">Integrantes</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="headerSup" id="info">
+            <div class="basic">
+                <h1>Programación orientada a <b style="color: rgb(0, 102, 255);">eventos</b></h1>
+                <p class="info" style="font-size: 20px;">La programación dirigida por eventos, es un paradigma de
+                    programación en el que tanto la estructura como la ejecución de los programas van determinados por
+                    los sucesos que ocurran en el sistema, definidos por el usuario o que ellos mismos provoquen.</p>
+                <p class="info" style="font-size: 20px;">Para entender la programación dirigida por eventos, podemos
+                    oponerla a lo que no es: mientras en la programación secuencial (o <span id="info"
+                        style="color: chartreuse;"
+                        onclick="alert('La programación estructurada es un paradigma de programación orientado a mejorar la claridad, calidad y tiempo de desarrollo de un programa de computadora recurriendo únicamente a subrutinas y tres estructuras básicas: secuencia, selección e interrelación')">estructurada</span>)
+                    es el programador
+                    el que define cuál va a ser el flujo del programa, en la programación dirigida por eventos será el
+                    propio usuario.</p>
+            </div>
+            <div class="imagen">
+                <img src="img/programing.png" alt="Programación" onclick="muestraInf()">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="video" id="video">
+            <div class="caja-video">
+                <iframe width="95%" height="100%" src="https://www.youtube.com/embed/qeMpcoEoxEo"
+                    title="YouTube video player" frameborder="20"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="texto-video">
+                <p>A continuación, se presentará un video con una breve explicación de como funciona la programación
+                    orientada a eventos en el lenguaje de JAVA.</p>
+            </div>
+        </section>
+        <section class="lenguajes" id="leng">
+            <div class="lengSup">
+                <div class="text2">
+                    <h2>Lenguajes que manejan <span class="poe">P.O.E</span></h2>
+                    <p>Los lenguajes que se pueden manejar en el paradigma de Programación orientada a eventos
+                        en realidad son todos aquellos cuya función principal sean hacer aplicaciones, aplicaciones web, 
+                        páginas web, etc. Es decir, aquellos sistemas de información que tengan contacto o uso de un usuario.
+                    </p>
+                    <p><br>
+                        Ejemplo: <br>
+                        <ul class="lista">
+                            <li><strong style="color: rgb(218, 218, 7);">JavaScript: </strong>Ya que se usa en animaciones y/o aplicaciones web.</li>
+                            <li><strong style="color: rgb(218, 5, 5);">JAVA: </strong>Se usa tanto en Java aplication como en Java web.</li>
+                            <li><strong style="color: rgb(46, 112, 255);">C++: </strong>Para aplicaciones o softwares locales</li>
+                            <li><strong style="color: rgb(43, 43, 177);">P<span style="color: rgb(224, 202, 2);">y</span>thon: </strong>Para aplicaciones, desarrolloweb, logística y más.</li>
+                            <li><strong style="color: rgb(117, 31, 197);">Visual Basic: </strong>Creación de aplicaciones como videojuegos y más.</li>
+                            <li><strong style="color: rgb(233, 65, 4);">HTML con CSS: </strong>En las animaciones básicas como el <b><span style="color:blueviolet">:</span><span style="color: rgb(221, 169, 36);">hover</span></b></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="img-lenguaje">
+                    <img class="img-leng" src="img/lenguajes.jpeg" alt="lenguajes programacion">
+                </div>
+            </div>
+        </section>
+        <section class="ejemplo" id="ejem">
+            <div class="text3">
+                <h2 style="color: rgb(235, 255, 51);">Ejemplo <span style="color: rgb(26, 75, 236);">práctico</span></h2>
+                <p class="pp">A continuación presentaremos un ejemplo en lenguaje <span style="color: yellow;">JavaScript</span> 
+                para mayor entendimiento de este tema:</p>
+            </div>
+            <div class="img-ejemplo">
+                <img src="img/ejemplo-js.PNG" alt="javascript">
+            </div>
+        </section>
+        <section class="integrantes" id="integrantes">
+            <div class="sup">
+                <div class="unic">
+                    <img class="imgPerson" src="img/Sebastian.jpeg" alt="person">
+                    <legend>Sebastian Riaño</legend>
+                    <legend>121973</legend>
+                    <legend>Ing. Sistemas</legend>
+                </div>
+                <div class="unic">
+                    <img class="imgPerson" src="img/Juan.jpeg" alt="person">
+                    <legend>Juan Monroy</legend>
+                    <legend>121877</legend>
+                    <legend>Ing. Sistemas</legend>
+                </div>
+                <div class="unic">
+                    <img class="imgPerson" src="img/Santi.jpeg" alt="person">
+                    <legend>Santiago Hernández</legend>
+                    <legend>122368</legend>
+                    <legend>Ing. Sistemas</legend>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article>
+            © Derechos reservados 2022 - Pensamiento algoritmico - Universidad ECCI
+        </article>
+    </footer>
+</body>
+
+</html>
